@@ -467,7 +467,7 @@ session_start();
     <script>
 
 var slideIndex = 1;
-var server = "http://localhost/TB2/kuliner_bkt/";
+var server = "https://culinarybkt.herokuapp.com";
 //showDivs(slideIndex);
 
 function plusDivs(n) {
