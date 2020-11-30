@@ -467,7 +467,7 @@ session_start();
     <script>
 
 var slideIndex = 1;
-var server = "https://culinarybkt.herokuapp.com";
+var server = "https://culinarybkt.herokuapp.com/";
 //showDivs(slideIndex);
 
 function plusDivs(n) {

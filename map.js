@@ -1,5 +1,5 @@
 var map;
-        var server = "https://culinarybkt.herokuapp.com";
+        var server = "https://culinarybkt.herokuapp.com/";
         var cekRadiusStatus = "off";   //RADIUS
         var circles = []; //RADIUS
         var rad; //RADIUS

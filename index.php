@@ -39,7 +39,7 @@ require("connect.php");
 
 <script type="text/javascript">
 
-var server = "https://culinarybkt.herokuapp.com";
+var server = "https://culinarybkt.herokuapp.com/";
 var map;
 var markersDua = [];
 var koordinat = 'null'
