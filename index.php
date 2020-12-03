@@ -46,7 +46,7 @@ var koordinat = 'null'
 var infoposisi = [];
 var markerposisi = [];
 var centerLokasi;
-var markerposisi = [];
+var markerposisi = []; 
 var centerBaru;
 var cekRadiusStatus = "off"; 
 var circles = [];
