@@ -37,10 +37,10 @@
         ?>
         <form role="form" action="act/layananupd.php" method="post">
           <button type="submit" class="btn btn-primary pull-right">Save <i class="fa fa-floppy-o"></i></button>
-          <a href="?page=jenis" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Kembali</a> <br><br><br>
+          <a href="?page=jenis" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Back</a> <br><br><br>
           <input type="text" class="form-control hidden" name="id_tempat_kuliner" value="<?php echo $data['id_tempat_kuliner'] ?>">
           <div class="form-group" style="clear:both">
-            <label for="nama_jenis_industri">Jenis Industri</label>
+            <label for="nama_jenis_industri">Industry Type</label>
             <input type="text" class="form-control" name="nama_jenis_industri" value="<?php echo $data['nama_jenis_industri'] ?>" required>
           </div>
         </form>

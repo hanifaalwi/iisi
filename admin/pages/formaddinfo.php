@@ -10,19 +10,19 @@
     <div class="col-lg-4 ds"  id="hide3">
            
          <div class="form-group">
-          <label for="id_kuliner"><span style="color:red">*</span>ID Tempat Kuliner</label>
+          <label for="id_kuliner"><span style="color:red">*</span>ID Culinary Place</label>
           <input type="text" class="form-control" id="id_kuliner" name="id_kuliner" onkeyup="isi_otomatis()"></input>
         </div>
         <div class="form-group">
-          <label for="id_informasi"><span style="color:red">*</span>ID Informasi</label>
+          <label for="id_informasi"><span style="color:red">*</span>ID Information</label>
           <input type="text" class="form-control" name="id_informasi" value="" required>
         </div>
         <div class="form-group">
-          <label for="tanggal"><span style="color:red">*</span>Tanggal</label>
+          <label for="tanggal"><span style="color:red">*</span>Date</label>
           <input type="date" class="form-control" name="tanggal" value="" required>
         </div>
          <div class="form-group">
-          <label for="informasi"><span style="color:red">*</span>Informasi</label>
+          <label for="informasi"><span style="color:red">*</span>Information</label>
           <input type="text" class="form-control" name="informasi" value="" required>
         </div>
                   

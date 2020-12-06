@@ -28,7 +28,7 @@
    
     
         <button type="submit" class="btn btn-primary pull-right">Save <i class="fa fa-floppy-o"></i></button>   
-        <a href="?page=fasculinary" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Kembali</a>
+        <a href="?page=fasculinary" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Back</a>
 
                       </div>
                                            

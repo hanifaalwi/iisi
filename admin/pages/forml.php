@@ -9,17 +9,17 @@
 ?>
 
 <form class="" role="form" action="act/uplayprocess.php" method="post">
-<button type="submit" class="btn btn-primary" style="float:right"><i class="fa fa-floppy-o"></i> Simpan</button>
+<button type="submit" class="btn btn-primary" style="float:right"><i class="fa fa-floppy-o"></i> Save</button>
 <div class="row" style="clear:both;">
 <div class="col-xs-5">
 	<div class="box">
 		<div class="box-body">
-		<h4 style="text-transform:capitalize;">Daftar Kuliner <?php echo $data1['name'] ?></h4>
+		<h4 style="text-transform:capitalize;">Culinary List <?php echo $data1['name'] ?></h4>
 			<div id="forml">
 				<input type="text" class="form-control hidden" id="id" name="id" value="<?php echo $id_culinary_place ?>">
 					
 					<table class="table table-hover table-bordered table-striped">
-					<thead><th>  </th><th>Jenis Kuliner</th><th>Harga</th></thead>
+					<thead><th>  </th><th>Culinary Type</th><th>Price</th></thead>
 					<tbody>
 					<script>
 						function enable(id)

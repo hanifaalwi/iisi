@@ -19,7 +19,7 @@
 				?>
 				<form role="form" action="act/layanankulupd.php" method="post">
 					<button type="submit" class="btn btn-primary pull-right">Save <i class="fa fa-floppy-o"></i></button>
-					<a href="?page=jenisCulinary" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Kembali</a> <br><br><br>
+					<a href="?page=jenisCulinary" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Back</a> <br><br><br>
 					<input type="text" class="form-control hidden" name="id" value="<?php echo $data['id'] ?>">
 					<div class="form-group" style="clear:both">
 						<label for="name">Type of Culinary</label>

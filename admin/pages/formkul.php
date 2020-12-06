@@ -60,7 +60,7 @@
         </div>
     
         <button type="submit" class="btn btn-round pull-right" >Next <i class="fa fa-chevron-right"></i></button> 
-        <a href="?page=culinary" class="btn btn-round btn-default"><i class="fa fa-chevron-left"></i> Kembali</a>  
+        <a href="?page=culinary" class="btn btn-round btn-default"><i class="fa fa-chevron-left"></i> Back</a>  
 <!-- </form> -->
 
                       </div>

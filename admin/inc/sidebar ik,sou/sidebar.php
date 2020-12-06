@@ -18,14 +18,14 @@
                   <li class="sub-menu">
                       <a class="active" href="../">
                           <i class="fa fa-dashboard"></i>
-                          <span>Halaman Pengguna</span>
+                          <span>User Pages</span>
                       </a>
                   </li>
                   <!-- <div style="display:none;" id="tampilik"> -->
           <?php
             if($page == "industry"){
           ?>
-              <h6 class="centered" style="color: #f7d976;">Industri Kecil</h6>
+              <h6 class="centered" style="color: #f7d976;">Small Industry</h6>
                  <li class="sub-menu">
                       <a class="active" href="?page=industry">
                           <i class="fa fa-dashboard"></i>

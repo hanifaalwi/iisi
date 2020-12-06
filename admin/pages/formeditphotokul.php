@@ -24,14 +24,14 @@
 		
 		<input type="text" class="form-control hidden" name="id" value="<?php echo $id ?>">
 		<div class="form-group">
-		  <label for="file">Upload Foto</label>
+		  <label for="file">Upload Photo</label>
 		  <input type="file" class="" style="background:none;border:none; width:1000px; " name="image" required>
 		</div>
-		<span style="color:red;">*Ukuran gambar maksimal 500kb</span>
+		<span style="color:red;">*Size Max Picture 500kb</span>
 	  </div><!-- /.box-body -->
 
 	  <div class="box-footer">
-	   <a href="?page=detailculinary&id=<?php echo $id ?>" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Kembali</a>
+	   <a href="?page=detailculinary&id=<?php echo $id ?>" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Back</a>
 	  &nbsp&nbsp
 		<button type="submit" class="btn btn-primary"><i class="fa fa-upload"></i> Upload</button>
 	  </div>

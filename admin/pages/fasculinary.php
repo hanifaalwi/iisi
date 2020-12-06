@@ -5,17 +5,17 @@
           
               <div class="box-body">
               <div class="btn-group pull-left" style="width:100px;">
-            <a href="?page=culinary<?php echo $id ?>" class="btn btn-theme"><i class="fa fa-chevron-left"></i> Kembali</a>    </div>
+            <a href="?page=culinary<?php echo $id ?>" class="btn btn-theme"><i class="fa fa-chevron-left"></i> Back</a>    </div>
      <div class="btn-group pull-right" style="width:90px;">
-    <a href="?page=formfaskul" class="btn btn-theme">Tambah <i class="fa fa-plus"></i></a><br><br><br>
+    <a href="?page=formfaskul" class="btn btn-theme">Add <i class="fa fa-plus"></i></a><br><br><br>
     </div>
     </div>
               <table id="" class="table table-hover table-bordered table-striped">
     <thead>
       <tr>
      <!--  <th>ID Jenis Industri</th> -->
-      <th style="width:400px;">Fasilitas</th>
-      <th style="width:300px;"> Aksi </th>
+      <th style="width:400px;">Facility</th>
+      <th style="width:300px;"> Action </th>
 
       </tr>
     </thead>

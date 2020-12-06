@@ -6,7 +6,7 @@
              <!--menampilkan map-->
     <select name = "detailcul" id="detailcul" class="form-control">
     <option value="0" >
-    Pilih Tempat Kuliner
+    Choose Culinary Place
     </option>
   
     <?php

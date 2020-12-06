@@ -9,17 +9,17 @@
 ?>
 
 <form class="" role="form" action="act/uplayprocessfas.php" method="post">
-<button type="submit" class="btn btn-primary" style="float:right"><i class="fa fa-floppy-o"></i> Simpan</button>
+<button type="submit" class="btn btn-primary" style="float:right"><i class="fa fa-floppy-o"></i> Save</button>
 <div class="row" style="clear:both;">
 <div class="col-xs-5">
 	<div class="box">
 		<div class="box-body">
-		<h4 style="text-transform:capitalize;">Daftar Fasilitas <?php echo $data1['facility'] ?></h4>
+		<h4 style="text-transform:capitalize;">Facility List<?php echo $data1['facility'] ?></h4>
 			<div id="forml">
 				<input type="text" class="form-control hidden" id="id" name="id" value="<?php echo $id_culinary_place ?>">
 					
 					<table class="table table-hover table-bordered table-striped">
-					<thead><th>  </th><th>Jenis Fasilitas</th></thead>
+					<thead><th>  </th><th>Facility Type</th></thead>
 					<tbody>
 					<script>
 						// function enable(id)

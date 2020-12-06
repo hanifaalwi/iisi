@@ -117,7 +117,7 @@ while($row = pg_fetch_array($hasil)){
 		<div class="btn-group">
 		</div>
 		<!-- <br><br> -->
-		<td><div class="btn-group"><a href="?page=culinary" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Kembali</a> </div>
+		<td><div class="btn-group"><a href="?page=culinary" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Back</a> </div>
 		<div class="btn-group"><a href="?page=formeditspasialkul&id=<?php echo $id ?>" class="btn btn-primary pull-left"><i class="fa fa-edit"></i> Edit Data</a></div>
 					</td>
 				</div><!-- /.box-footer-->
@@ -130,7 +130,7 @@ while($row = pg_fetch_array($hasil)){
 	<div class="col-lg-3 col-xs-3" style="background-color:#f2f2f2">
 		<div class="box">
 			<div class="box-header with-border">
-			  <h3 class="box-title">Foto</h3>
+			  <h3 class="box-title">Photo</h3>
 			  <h4 class="box-title" style="text-transform:capitalize;"><b> <?php echo $name ?></b></h4>
 			</div>
 			
@@ -163,7 +163,7 @@ while($row = pg_fetch_array($hasil)){
 			<label for="file">Upload Foto</label>
 			<input type="file" class="" style="background:none;border:none; width:1000px; " name="image" required>
 			</div>
-			<span style="color:red;">*Ukuran gambar maksimal 500kb</span>
+			<span style="color:red;">*Size Max Picture 500kb</span>
 			</div><!-- /.box-body -->
 
 			<div class="box-footer">

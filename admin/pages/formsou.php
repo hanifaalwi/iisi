@@ -99,11 +99,11 @@
                   <label for="file">Upload Foto</label>
                   <input type="file" class="" style="background:none;border:none; width:1000px; " name="image" required>
                 </div>
-                <span style="color:red;">*Ukuran gambar maksimal 500kb</span>
+                <span style="color:red;">*Size Max Picture 500kb</span>
                 <br><br>
     
         <button type="submit" class="btn btn-primary pull-right">Save <i class="fa fa-floppy-o"></i></button>
-        <a href="?page=souvenirs" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Kembali</a>    
+        <a href="?page=souvenirs" class="btn btn-primary pull-left"><i class="fa fa-chevron-left"></i> Back</a>    
 <!-- </form> -->
 
                       </div>

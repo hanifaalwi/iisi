@@ -5,7 +5,7 @@
           
               <div class="box-body">
               <div class="btn-group pull-left" style="width:100px;">
-            <a href="?page=culinary<?php echo $id ?>" class="btn btn-theme"><i class="fa fa-chevron-left"></i> Kembali</a>  </div>
+            <a href="?page=culinary<?php echo $id ?>" class="btn btn-theme"><i class="fa fa-chevron-left"></i> Back</a>  </div>
               
     <div class="btn-group pull-right" style="width:90px;">
     <a href="?page=formjnskul" class="btn btn-theme">Tambah <i class="fa fa-plus"></i></a><br><br><br>
@@ -15,8 +15,8 @@
     <thead>
       <tr>
      <!--  <th>ID Jenis Industri</th> -->
-      <th>Jenis Kuliner</th>
-      <th>Aksi</th>
+      <th>Culinary Type</th>
+      <th>Action</th>
 
       </tr>
     </thead>
