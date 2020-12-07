@@ -11,9 +11,10 @@ $username = $_SESSION['username'];
 $sql_rm = "select * from culinary_place where username='$username'";
 $query_rm = pg_query($sql_rm);
 $data_rm = pg_fetch_assoc($query_rm);
-$id = $data_rm['id'];
+$id = $data_rm['id']; 
 // die();
 ?> 
+
 
 
 <!DOCTYPE html> 
